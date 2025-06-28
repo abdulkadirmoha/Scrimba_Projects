@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h2 p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border-radius: 16px; /* rounded-2xl */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl */
+    width: 100%;
+    max-width: 512px; /* max-w-lg (512px) */
+    padding: 42px; /* p-8 */
+    margin: 10px auto;
+    box-sizing: border-box;
+    background-color: #ECFDF5;
+}
+.heading-section {
+    border-bottom: solid 1px #D5D4D8;
+}
+.heading-section h2 {
+    font-family: 'karla', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -5%;
+    color: #2B283A;
+    margin-bottom: 0;
+}
+.heading-section span {
+    color: #10B981;
+}
+p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #6B7280;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.heading-section button {
+    width: 190px;
+    height: 42px;
+    padding: 9px 17px 9px 15px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #10B981;
+    color: #fff ;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+
+.password-dis {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.password-dis p {
+    width: 240px;
+    padding: 8px 6px;
+    border-radius: 6px;
+    background-color: #273549;
+    color: #5DEF92;
+    font-size: 16px;
+    text-align: center;
+    
+}
