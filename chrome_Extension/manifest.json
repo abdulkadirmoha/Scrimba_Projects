@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3, 
+  "version": "1.0",
+  "name": "InternHunt",
+  "description": "Save and track internship opportunities.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["tabs"],
+  "host_permissions": []
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Tracker</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+          <div class="container">
+        <h1 class="main-header">InternHunt 🚀</h1>
+
+        <!-- Add New Entry Form -->
+        <div class="card form-card">
+            <h2 class="section-header">Add New Opportunity</h2>
+            <form id="opportunityForm" class="form-space-y-4">
+                <div>
+                    <label for="companyName" class="form-label">Company Name <span class="required-asterisk">*</span></label>
+                    <input type="text" id="companyName" placeholder="e.g., Google, Stripe, Figma" required
+                           class="form-input">
+                </div>
+                <div>
+                    <label for="linkedinUrl" class="form-label">LinkedIn URL <span class="required-asterisk">*</span></label>
+                    <input type="url" id="linkedinUrl" placeholder="e.g., https://www.linkedin.com/company/google/" required
+                           class="form-input">
+                </div>
+                <div>
+                    <label for="contactPerson" class="form-label">Contact Person (Optional)</label>
+                    <input type="text" id="contactPerson" placeholder="e.g., Jane Doe (Hiring Manager)"
+                           class="form-input">
+                </div>
+                <div>
+                    <label for="notes" class="form-label">Notes</label>
+                    <textarea id="notes" placeholder="e.g., Met at career fair, mentioned opening for Q3." rows="4"
+                              class="form-textarea"></textarea>
+                </div>
+                <div>
+                    <label for="tags" class="form-label">Tags (comma-separated)</label>
+                    <input type="text" id="tags" placeholder="e.g., Frontend, UI/UX, remote, startup"
+                           class="form-input">
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Save Opportunity
+                </button>
+            </form>
+        </div>
+             <div class="card">
+            <h2 class="section-header">Saved Opportunities</h2>
+            <div id="opportunityList" class="form-space-y-4">
+                <!-- Opportunities will be loaded here by JavaScript -->
+                <p id="noOpportunities">No opportunities saved yet. Start adding some above!</p>
+            </div>
+            <div class="action-buttons-container">
+               <button class="btn btn-primary delete-btn">
+                    Delete all
+                </button>
+            </div>
+        </div>
+    <script src="popup.js"></script>
+</body>
+</html>
