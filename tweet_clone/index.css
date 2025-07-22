@@ -138,3 +138,26 @@ button{
 .retweeted {
   color: limegreen;
 }
+.reply-textarea {
+    height: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.reply-input-area {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+.reply-input-area input {
+    flex-grow: 1;
+    padding: 5px;
+}
+.reply-input-area button {
+    padding: 5px 10px;
+}
