@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="menu-header">
+    <h3>Jimmy’s Diner</h3>
+    <p>The best burgers and pizzas in town.</p>
+  </header>
+
+  <!-- Menu Section -->
+  <main class="menu-section" id="menu-container">
+    <!-- Menu items will be rendered dynamically with JS -->
+    
+    <!-- Duplicate items removed for clarity -->
+  </main>
+
+  <!-- Order Summary Section -->
+  <section class="order-section hidden" id="order-container">
+    <h2>Your Order</h2>
+
+    <div id="order-items-container">
+          
+      
+    </div>
+
+    <div class="order-summary">
+      <span>Total Price:</span>
+      <span class="total-price" id="total-price">$8</span>
+    </div>
+
+    <button class="complete-btn">Complete Order</button>
+  </section>
+
+  <!-- Payment Form -->
+  <section class="payment-details hidden" id="payment-details">
+    <h2>Enter card details</h2>
+    <form id="payment-form">
+        <input type="text" id="full-name" placeholder="Enter your name" required />
+        <input type="text" id="card-number" placeholder="Enter card number" required />
+        <input type="text" id="cvv-code" placeholder="Enter CVV" required />
+        <button class="pay-btn" id="pay-btn">Pay</button>
+    </form>
+    
+  </section>
+  <div class="order-complited hidden" id="order-complited">
+    <p>Thanks, James! Your order is on its way!</p>
+  </div>
+<script src="index.js" type="module"></script>
+</body>
+</html>
