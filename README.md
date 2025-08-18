@@ -10,9 +10,6 @@ A collection of small frontend projects built with **HTML, CSS, and JavaScript**
 * [Technologies Used](#technologies-used)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
-
 ---
 
 ## Projects Overview
